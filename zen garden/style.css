@@ -17,7 +17,10 @@ color:#F2E0C9;
 font-size: 1.0rem;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 text-indent: 1em;
-}
+width: 80%;
+max-width: 1280px;
+margin: auto}
+
 a {color: #A0A603}
 h1 {font-size: 1.8rem;}
 h2 {font-size: 1.4rem;}
@@ -26,11 +29,32 @@ h1, h2, h3 {text-align: center;}
 abbr {font-variant: small-caps;}
 .summary {text-align: center;}
 .main p {line-height: 1.5;}
- 
+ #zen-intro {height: 550px;}
+ #design-archives {
+    display: none;
+ }
+header {background-color: #F2E0C9;
+color: #025959}
+#zen-intro header h1, #zenintro header h2 {display: inline-block}
+header h1 {margin-left: 1em;
+margin-right: 1em;}
+aside ul {list-style-type: none;
+}
+aside ul li {
+    margin: 1em;
+    text-align: center;
+}
+footer {
+    margin: 4%;
+}
+footer a {
+border: solid 2px #A0A603;
+padding: 0.5em;
+}
 /*
-3. Seções de resumo e principal. Localize os elementos que representam a seção de resumo e principal da página, e aplique nelas:
+4. Por fim, vamos aplicar uma inversão de cores no rodapé para ele ganhar um contraste em relação ao restante da página.
 
-a. Alinhamento a direita ou centralizado para a seção de resumo.
+- Adicione 4% de espaçamento externo no rodapé.
 
-b. Espaçamento entre as linhas de 1.5 para os parágrafos da seção principal.
+- Transforme cada link do rodapé em uma caixa colocando borda sólida de 2px, e espaçamento interno de 0.5em.
 */
