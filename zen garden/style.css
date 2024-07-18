@@ -51,10 +51,19 @@ footer a {
 border: solid 2px #A0A603;
 padding: 0.5em;
 }
-/*
-4. Por fim, vamos aplicar uma inversão de cores no rodapé para ele ganhar um contraste em relação ao restante da página.
-
-- Adicione 4% de espaçamento externo no rodapé.
-
-- Transforme cada link do rodapé em uma caixa colocando borda sólida de 2px, e espaçamento interno de 0.5em.
-*/
+.page-wrapper {
+    position: relative;
+}
+.explanation{
+    width: 60%;
+    margin-right: 35%;
+    padding-right: 2%;
+    border-right: solid 1px #1f295c;
+}
+#design-selection {
+    position: absolute;
+    top: 550px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
