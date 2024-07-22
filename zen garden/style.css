@@ -13,8 +13,6 @@ text-indent: 1em;
 width: 80%;
 max-width: 1280px;
 margin: auto}
-
-a {color: #A0A603}
 h1 {font-size: 1.8rem;}
 h2 {font-size: 1.4rem;}
 h3 {font-size: 1.2rem;}
@@ -90,4 +88,22 @@ padding: 0.5em;
 .benefits {
     border-top: solid #A0A603 1px;
     border-bottom: solid #A0A603 1px;
+}
+a {color: #A0A603;
+    font-weight: bold;
+}
+a:hover {
+    font-weight: normal;
+    color: #F2E0C9;
+}
+.main p:first-of-type:first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif
+    float: left;
+}
+.design-selection li {
+    border-top: solid 1px #A0A603;
+}
+.design-selection li:last-child {
+    border-bottom: solid 1px #A0A603;
 }
