@@ -94,25 +94,27 @@ body {
         display: inline-block;
         justify-content: center;
         border-bottom: none;
-        position: fixed;
-        top: none;
+        position: relative;
+        background-color: transparent;
+    }
+    #menu {
+        text-align: center;
         width: 100%;
-        z-index: 1000;
     }
     #link ul {
         display: block;
-        margin-top: 30px;
+        margin-top: 10px;
         padding: 0;
-        list-style: none;
-        flex: 1;
+        list-style: disc;
+        flex: none;
     }
     
     #link li {
-        margin: 0px 10px;
+        margin: 10px 0;
         align-items: safe;
     }
     body {
-        margin-top: 105px;
+        margin-top: 0;
     }
     
 #rosto {
@@ -124,7 +126,10 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-#telefone {
-
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 }
